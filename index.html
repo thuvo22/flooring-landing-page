@@ -70,23 +70,25 @@
                     </ul>
                 </div>
 
-                <!-- Right Column: Image Placeholder -->
+                <!-- Right Column: Before/After Images -->
                 <div class="order-1 lg:order-2 relative">
-                    <div class="bg-gradient-to-br from-slate-200 to-slate-300 rounded-2xl aspect-[4/3] flex items-center justify-center relative overflow-hidden shadow-2xl">
-                        <!-- Placeholder content -->
-                        <div class="text-center p-8">
-                            <div class="flex justify-center gap-4 mb-4">
-                                <div class="bg-white/80 backdrop-blur px-4 py-2 rounded-lg font-medium text-gray-700">Before</div>
-                                <div class="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium">After</div>
-                            </div>
-                            <p class="text-gray-600 text-sm">Your flooring transformation photo here</p>
+                    <div class="grid grid-cols-2 gap-3 relative">
+                        <!-- Before Image -->
+                        <div class="relative rounded-xl overflow-hidden shadow-xl">
+                            <img src="images/banner-before.png" alt="Carpet flooring before LVP installation" class="w-full h-full object-cover aspect-[4/3]">
+                            <div class="absolute top-3 left-3 bg-white/90 backdrop-blur px-3 py-1.5 rounded-lg font-semibold text-gray-700 text-sm">Before</div>
                         </div>
-                        
-                        <!-- Floating Badge -->
-                        <div class="absolute bottom-4 right-4 bg-white shadow-lg rounded-lg px-4 py-2 flex items-center gap-2">
-                            <span class="text-amber-400 text-lg">★★★★★</span>
-                            <span class="font-semibold text-gray-900">5.0 Google Rating</span>
+                        <!-- After Image -->
+                        <div class="relative rounded-xl overflow-hidden shadow-xl">
+                            <img src="images/banner-after.jpg" alt="LVP flooring after professional installation" class="w-full h-full object-cover aspect-[4/3]">
+                            <div class="absolute top-3 left-3 bg-blue-600 px-3 py-1.5 rounded-lg font-semibold text-white text-sm">After</div>
                         </div>
+                    </div>
+                    
+                    <!-- Floating Badge -->
+                    <div class="absolute -bottom-4 right-4 bg-white shadow-lg rounded-lg px-4 py-2 flex items-center gap-2 z-10">
+                        <span class="text-amber-400 text-lg">★★★★★</span>
+                        <span class="font-semibold text-gray-900">5.0 Google Rating</span>
                     </div>
                 </div>
             </div>
